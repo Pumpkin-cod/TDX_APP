@@ -1,0 +1,30 @@
+.marquee-container {
+  width: 40%;
+  overflow: hidden;
+  margin-left: 1.5rem;
+}
+
+.marquee-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #f0f0f0; 
+  padding: 4px 6px; 
+  margin-right: 20px; 
+  border-radius: 5px; 
+  font-size: 16px; 
+  color: rgba(16, 175, 16, 0.91); 
+  animation: marquee-animation 10s linear infinite; 
+}
+
+.marquee-button img {
+  margin-right: 8px; 
+}
+
+@keyframes marquee-animation {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
