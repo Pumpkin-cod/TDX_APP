@@ -15,7 +15,12 @@ const Hero2 = () => {
               <p className='text-xl'>Generate higher profit margins by souring directly from the last mile.
              A cost effective solution for enhancing efficiency and boosting profits.</p>
 
-             <button className='mt-6 py-2 outline-double border-green-700 text-green-700 rounded-full w-40 font-bold'>Join TDX</button>
+        {/* <a href="https://tdxapp.ai">
+          <button className='mt-6 py-2 outline-double border-green-700 text-green-700 rounded-full w-40 font-bold'>
+            Join TDX
+          </button>
+        </a> */}
+
         </div>
     </div>
   )

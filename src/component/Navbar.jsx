@@ -17,18 +17,18 @@ const Navbar = () => {
 
                     {/* Marquee section */}
                     <div className="marquee-container">
-                        <button className="marquee-button">
+                        <div className="marquee-button">
                             <img className="w-10 h-10 object-contain text-green-700" src={maize} alt="maize" />
                             <p>Yellow Maize</p>
-                        </button>
-                        <button className="marquee-button">
+                        </div>
+                        <div className="marquee-button">
                             <img className="w-10 h-10 object-contain" src={maize} alt="maize" />
                             <p>White Maize</p>
-                        </button>
-                        <button className="marquee-button">
+                        </div>
+                        <div className="marquee-button">
                             <img className="w-10 h-10 object-contain" src={sorghum} alt="sorghum" />
                             <p>Sorghum</p>
-                        </button>
+                        </div>
                         
                     </div>
 
@@ -37,8 +37,8 @@ const Navbar = () => {
                         <ul className="flex space-x-2 items-center">
                             <li><a href="#" className="text-lg mr-3 text-green-600">Support</a></li>
                             <li><a href="#" className="text-black mr-3 text-lg">About Us</a></li>
-                            <li><a href="#" className="text-black mr-3 text-lg">Register With Us</a></li>
-                            <li><button className="text-white bg-green-600 text-lg mr-5 rounded-full px-6 py-2">Sign In</button></li>
+                            {/* <li><a href="#" className="text-black mr-3 text-lg">Register With Us</a></li>
+                            <li><button className="text-white bg-green-600 text-lg mr-5 rounded-full px-6 py-2">Sign In</button></li> */}
                         </ul>
                     </div>
                 </div>

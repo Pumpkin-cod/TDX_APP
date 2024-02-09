@@ -52,12 +52,15 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <div>
+                {/* <div>
                     <h2 className='text-2xl pb-4 font-bold'>Join Us</h2>
-                    <button className="bg-green-600 hover:bg-green-800 text-white py-2 px-4 rounded">
-                        Join TDX Today
-                    </button>
-                </div>
+                    <a href="https://tdxapp.ai">
+                        <button className="bg-green-600 hover:bg-green-800 text-white py-2 px-4 rounded">
+                            Join TDX Today
+                        </button>
+                    </a>
+
+                </div> */}
             </div>
         </footer>
     );

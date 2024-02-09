@@ -20,6 +20,21 @@
   margin-right: 8px; 
 }
 
+.partner-container {
+     display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: marquee-animation 10s linear infinite;
+}
+
+.marquee-item {
+    /* display: inline-block; */
+     margin: 0 10px;
+}
+
+
 @keyframes marquee-animation {
   0% {
     transform: translateX(100%);
@@ -28,3 +43,4 @@
     transform: translateX(-100%);
   }
 }
+

@@ -7,6 +7,7 @@ import Footer from './component/Footer'
 import Partners from './component/Partners'
 import Features from './component/Features'
 import ContactUs from './component/ContactUs'
+import ContactForm from './component/ContactForm'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <ContactUs />
       <Features />
       <Partners />
+      <ContactForm />
       <Footer />
     </div>
   )
