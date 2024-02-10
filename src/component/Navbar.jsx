@@ -37,8 +37,8 @@ const Navbar = () => {
                         <ul className="flex space-x-2 items-center">
                             <li><a href="#" className="text-lg mr-3 text-green-600">Support</a></li>
                             <li><a href="#" className="text-black mr-3 text-lg">About Us</a></li>
-                            {/* <li><a href="#" className="text-black mr-3 text-lg">Register With Us</a></li>
-                            <li><button className="text-white bg-green-600 text-lg mr-5 rounded-full px-6 py-2">Sign In</button></li> */}
+                            <li><a href="#" className="text-black mr-3 text-lg">Register With Us</a></li>
+                            <li><button className="text-white bg-green-600 text-lg mr-5 rounded-full px-6 py-2">Sign In</button></li>
                         </ul>
                     </div>
                 </div>
