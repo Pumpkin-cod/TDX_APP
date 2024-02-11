@@ -11,6 +11,7 @@ import Partners from './component/Partners'
 import Features from './component/Features'
 import ContactUs from './component/ContactUs'
 import ContactForm from './component/ContactForm'
+import Marquee from './component/marquee';
 
 
 const StyledContainer = styled.div`
@@ -20,6 +21,7 @@ const App = () => {
   return (
     <StyledContainer>
     <div>
+      <Marquee />
       <Navbar />
       <Hero />
       <Hero2 />

@@ -12,10 +12,10 @@ const Partners = () => {
     return (
         <div className='mx-32 my-28 overflow-hidden'>
             <div>
-                <h1 className='text-black text-5xl text-center mb-2'>Our Trusted Partners</h1>
+                <h1 className='text-black text-5xl text-center mb-4'>Our Trusted Partners</h1>
             </div>
             <div>
-                <p className='text-slate-400 text-xl text-center mb-4'>We work with trusted partners worldwide</p>
+                <p className='text-slate-400 text-xl text-center mb-12'>We work with trusted partners worldwide</p>
             </div>
             <div className='partner-container'>
               
