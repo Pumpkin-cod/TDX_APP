@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 
-import logo from '../assets/tdx logo.png';
+import logo from '../assets/Logo original .png';
 
 
 const Navbar = () => {

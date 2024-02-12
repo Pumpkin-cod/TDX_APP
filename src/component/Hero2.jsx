@@ -7,7 +7,7 @@ const Hero2 = () => {
         <div className='w-1/2 pl-32 mr-20'>
               <h1 className='text-6xl pb-8 text-black'><span className='text-green-700'>Direct Sourcing </span>for
             <br />
-            Maximum<span className='text-green-700'> Profit</span>
+            Maximum<span className='text-green-700'> Profit<span>*</span> </span>
             <br /> Growth</h1>
         </div>
 
@@ -20,6 +20,8 @@ const Hero2 = () => {
             Contact Us
           </button>
         </a>
+        <a href=''>
+          <p className='text-black underline mt-3'>* Terms  & Conditions Apply</p></a>
 
         </div>
     </div>

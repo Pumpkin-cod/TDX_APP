@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import logo from '../assets/tdx logo.png';
+import logo from '../assets/Logo original .png';
 import '@fortawesome/fontawesome-free/css/all.css';
 
 const Footer = () => {
@@ -46,9 +46,9 @@ const Footer = () => {
                         <li>
                             <a href="#" className="block text-black hover:text-green-500  text-xl">About Us</a>
                         </li>
-                        <li>
+                        {/* <li>
                             <a href="#" className="block text-black hover:text-green-500  text-xl">FAQs</a>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
 

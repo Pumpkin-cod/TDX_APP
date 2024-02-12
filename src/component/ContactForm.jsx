@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import ContactImage from '../assets/Mask group.png';
+import ContactImage from '../assets/serviced-offices-22-bissau-avenue-east-legon-accra-map-thumb_250_250_s_c1_center 1.png';
 
 const ContactForm = () => {
     return (
