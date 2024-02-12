@@ -28,7 +28,7 @@ const App = () => {
       <ContactUs />
       <Features />
       <Partners />
-      <ContactForm />
+      {/* <ContactForm /> */}
       <Footer />
     </div>
     </StyledContainer>

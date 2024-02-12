@@ -4,12 +4,12 @@ import ContactImage from '../assets/serviced-offices-22-bissau-avenue-east-legon
 
 const ContactForm = () => {
     return (
-        <div className=' py-20 bg-blue-950'>
-           <div className=' flex justify-center text-center text-5xl text-white pb-12'>
+        <div  id='contactForm' className=''>
+           <div className=' flex justify-center text-center text-2xl text-black font-bold pb-12'>
             <h1>Contact Us</h1>
            </div>
             <div className='flex flex-row'>
-            <div className="flex-1">
+            <div className="flex-2">
                 <form className="flex flex-col space-y-4 ml-28">
                     {/* Name Input */}
                     <div className="flex items-center border border-gray-300 rounded">
@@ -43,7 +43,7 @@ const ContactForm = () => {
             </div>
 
             {/* Image Container */}
-            <div className="flex-1 mx-28">
+            <div className="flex-1 mx-16">
                 <img src={ContactImage} alt="Contact" className="w-full h-96 rounded-md shadow-lg" />
             </div>
             </div>

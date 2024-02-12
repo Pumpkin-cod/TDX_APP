@@ -66,7 +66,7 @@ const ContactUs = () => {
                     to global markets.
                 </p>
 
-                <a href='/ContactForm'>
+                <a href='https://platform.tdxapp.ai/join-tdx'>
                     <button className='mt-6 py-2 outline-double border-green-700 text-green-700 rounded-full w-40 font-bold'>
                         Join TDX
                     </button>

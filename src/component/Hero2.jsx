@@ -15,7 +15,7 @@ const Hero2 = () => {
               <p className='text-2xl'>Generate higher profit margins by souring directly from the last mile.
              A cost effective solution for enhancing efficiency and boosting profits.</p>
 
-        <a href="https://tdxapp.ai">
+        <a href="#contactForm">
           <button className='mt-6 py-2 outline-double border-green-700 text-green-700 rounded-full w-40 font-bold'>
             Contact Us
           </button>
