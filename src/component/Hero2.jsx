@@ -16,12 +16,12 @@ const Hero2 = () => {
              A cost effective solution for enhancing efficiency and boosting profits.</p>
 
         <a href="#contactForm">
-          <button className='mt-6 py-2 outline-double border-green-700 text-green-700 rounded-full w-40 font-bold'>
+          <button className='mt-6 py-2 outline-double hover:bg-green-600 hover:text-white border-green-700 text-green-700 rounded-full w-40 font-bold'>
             Contact Us
           </button>
         </a>
         <a href=''>
-          <p className='text-black underline mt-3'>* Terms  & Conditions Apply</p></a>
+          <p className='text-black hover:text-green-600 underline mt-3'>* Terms  & Conditions Apply</p></a>
 
         </div>
     </div>

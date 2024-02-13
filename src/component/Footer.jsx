@@ -16,13 +16,13 @@ const Footer = () => {
                         <img src={logo} alt="Logo" className="h-16 mr-4 mb-8" />
                         <div className="mb-4">
                             <h4 className='text-2xl pb-4 font-bold'>Mission</h4>
-                            <p>We're building one platform to enhance agricultural commodity trading process.</p>
+                            <p>We are building one platform to enhance agricultural commodity trading process.</p>
                         </div>
                         <div className='mb-4'>
                             <h4 className='text-2xl pb-4 font-bold'>Vision</h4>
                             <p>We want to be the most trusted platform that ensures a seamless and inclusive process for all players across the value chain.</p>
                         </div>
-                        <div>
+                        <div className='mt-8'>
                             {/* <h2 className='text-2xl pb-4 font-bold'>Follow Us On</h2> */}
                             <ul className="flex space-x-4">
                                 <li>
@@ -42,7 +42,7 @@ const Footer = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div className="mt-5">
+                        <div className="mt-10">
                             {/* <h2 className='text-2xl pb-4 font-bold'>Join Us</h2> */}
                             <a href="https://platform.tdxapp.ai/join-tdx">
                                 <button className="bg-green-600 hover:bg-green-800 text-white py-2 px-4 rounded">

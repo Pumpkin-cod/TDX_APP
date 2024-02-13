@@ -13,7 +13,7 @@ const Hero = () => {
                     <br /> and  more efficient trades.</p>
 
                 <a href="https://platform.tdxapp.ai/register-your-inteterest" className="inline-block">
-                    <button className="text-white font-bold px-4 bg-green-600 text-base md:text-lg mr-5 rounded-full py-3 md:py-4 w-full md:w-72 mt-8">Register Your Interest</button>
+                    <button className="text-white font-bold px-4 bg-green-600 hover:bg-green-800 text-base md:text-lg mr-5 rounded-full py-3 md:py-4 w-full md:w-72 mt-8">Register Your Interest</button>
                 </a>
             </div>
 

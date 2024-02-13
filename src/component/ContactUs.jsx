@@ -67,7 +67,7 @@ const ContactUs = () => {
                 </p>
 
                 <a href='https://platform.tdxapp.ai/join-tdx'>
-                    <button className='mt-6 py-2 outline-double border-green-700 text-green-700 rounded-full w-40 font-bold'>
+                    <button className='mt-6 py-2 outline-double border-green-700 hover:bg-white text-green-700 rounded-full w-40 font-bold'>
                         Join TDX
                     </button>
                 </a>
