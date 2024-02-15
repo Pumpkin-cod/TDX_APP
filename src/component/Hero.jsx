@@ -39,12 +39,12 @@ const Hero = () => {
             </div>
 
             {/* Image Section (for Larger Screens) */}
-            <div className="hidden md:block md:pl-40 w-1/2 md:w-1/2 justify-center items-center">
+            <div className="hidden md:block md:pl-20 w-1/2 md:w-1/2 justify-center items-center">
                 <div className="relative w-96 h-96 bg-slate-200 rounded-full my-10">
                     <img
                         src={desktop}
                         alt="desktop"
-                        className="absolute inset-0 w-full h-full object-contain transform scale-75 md:scale-100 rotate-6"
+                        className="absolute inset-0 w-80 h-80 object-contain top-6 transform scale-75 md:scale-110 rotate-6"
                     />
                 </div>
             </div>
