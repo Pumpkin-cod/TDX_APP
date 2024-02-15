@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect } from 'react';
 import bgimage from '../assets/tdx bg image 1.png';
-import groupimage from '../assets/tdx image 1.png';
-import groupimage2 from '../assets/tdx image 2.png';
+import groupimage from '../assets/tdx image update 3.png';
+import groupimage2 from '../assets/tdx image update 2 1.png';
 import groupimage3 from '../assets/tdx image 3.png';
 import groupimage4 from '../assets/tdx image 4.png';
 import '../Animation.css';
@@ -41,7 +41,7 @@ const ContactUs = () => {
                 <img
                     src={groupimage2}
                     alt='Overlay'
-                    className='absolute inset-4 object-cover w-2/5 left-32 top-56 animate-on-scroll animate-overlay'
+                    className='absolute inset-4 object-cover w-48 left-36 top-56 animate-on-scroll animate-overlay'
                 />
                 <img
                     src={groupimage3}

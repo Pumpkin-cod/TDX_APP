@@ -11,7 +11,7 @@ const Hero = () => {
                     <img
                         src={desktop}
                         alt="desktop"
-                        className="absolute inset-2 w-full h-full object-contain transform scale-75 md:scale-100 rotate-6"
+                        className="absolute inset-0 w-full h-full object-contain transform scale-75 md:scale-100 rotate-6"
                     />
                 </div>
             </div>
@@ -44,7 +44,7 @@ const Hero = () => {
                     <img
                         src={desktop}
                         alt="desktop"
-                        className="absolute inset-2 w-full h-full object-contain transform scale-75 md:scale-100 rotate-6"
+                        className="absolute inset-0 w-full h-full object-contain transform scale-75 md:scale-100 rotate-6"
                     />
                 </div>
             </div>
