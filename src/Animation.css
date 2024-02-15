@@ -43,18 +43,18 @@
 }
 
 /* Apply animations to each overlay image */
-.left-96 {
+.left-80 {
   animation: slideFromLeft 1s ease;
 }
 
-.left-36 {
+.left-32 {
   animation: slideFromBottom 1s ease;
 }
 
-.left-44 {
+.left-32.top-0 {
   animation: slideFromTop 1s ease;
 }
 
-.left-96.top-2 {
+.left-80.top-2 {
   animation: slideFromRight 1s ease;
 }

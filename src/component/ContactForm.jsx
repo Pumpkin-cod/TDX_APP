@@ -39,12 +39,12 @@ const ContactForm = () => {
 
     return (
         <div id='contactForm' className=''>
-            <div className='flex justify-center text-center text-2xl text-black font-bold pb-12'>
+            <div className='flex justify-center text-center text-2xl text-black font-bold pb-8 md:mt-0 mt-6'>
                 <h1>Contact Us</h1>
             </div>
-            <div className='flex flex-row'>
-                <div className="flex-2">
-                    <form className="flex flex-col space-y-4 ml-28 w-80" onSubmit={handleSubmit}>
+            <div className='flex flex-col md:flex-row'>
+                <div className="w-full md:w-2/3 mx-auto">
+                    <form className="flex flex-col space-y-4 md:ml-8" onSubmit={handleSubmit}>
                         {/* Name Input */}
                         <div className="flex items-center border border-gray-300 rounded">
                             <span className="px-3 py-4 text-green-700 bg-white border-r-2">
@@ -113,8 +113,8 @@ const ContactForm = () => {
                 </div>
 
                 {/* Image Container */}
-                <div className="flex-1 ml-8">
-                    <img src={ContactImage} alt="Contact" className="w-full h-full rounded-md shadow-lg" />
+                <div className="hidden md:flex md:w-1/3 ml-16">
+                    <img src={ContactImage} alt="Contact" className="w-80 h-full rounded-md shadow-lg" />
                 </div>
             </div>
         </div>
