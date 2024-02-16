@@ -35,7 +35,7 @@ const Navbar = () => {
                         <a href="https://platform.tdxapp.ai/register-your-inteterest" className="text-black hover:text-green-600 mr-3 text-lg">Register With Us</a>
                     </li>
                     <li>
-                        <button className="text-white bg-green-600 hover:bg-green-800 text-lg mr-5 rounded-full px-6 py-2">Sign In</button>
+                        <a href='https://platform.tdxapp.ai/login'><button className="text-white bg-green-600 hover:bg-green-800 text-lg mr-5 rounded-full px-6 py-2">Sign In</button></a>
                     </li>
                 </ul>
             </nav>
