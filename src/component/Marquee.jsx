@@ -21,11 +21,11 @@ const Marquee = () => {
       </div>
       <div className="marquee-button">
         <img className="w-8 md:w-10 h-8 md:h-10 object-contain" src={sorghum} alt="soybean" />
-        <p className="text-xs md:text-base">Soya Bean</p>
+        <p className="text-xs md:text-base">Soya Beans</p>
       </div>
       <div className="marquee-button">
         <img className="w-8 md:w-10 h-8 md:h-10 object-contain" src={sorghum} alt="Peanut" />
-        <p className="text-xs md:text-base">Peanut</p>
+        <p className="text-xs md:text-base">Peanuts</p>
       </div>
       <div className="marquee-button">
         <img className="w-8 md:w-10 h-8 md:h-10 object-contain" src={sorghum} alt="sesame seeds" />
