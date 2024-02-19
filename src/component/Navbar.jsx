@@ -11,8 +11,8 @@ const Navbar = () => {
 
     return (
         <div>
-            <nav className="bg-white px-4 py-2 md:py-4 md:px-32 flex justify-between items-center">
-                <div className=''>
+            <nav className="bg-white px-4 py-2 md:py-4  flex justify-between items-center">
+                <div className='w-1/5'>
                     <img src={logo} alt="Logo" className="w-28 h-10 md:w-full md:h-10 object-contain" />
                 </div>
                 <div className='md:hidden' onClick={toggleMenu}>
@@ -24,20 +24,22 @@ const Navbar = () => {
                         )}
                     </svg>
                 </div>
+                <div className='w-4/5 flex justify-end mr-10'>
                 <ul className={`md:flex ${isMenuOpen ? 'block' : 'hidden'}`}>
                     <li className="md:mr-3">
-                        <a href="#" className="text-lg mr-3 text-green-600">Support</a>
+                            <a href="#" className="text-lg mr-3 px-3 text-green-600  hover:text-green-700">Support</a>
                     </li>
                     <li className="md:mr-3">
-                        <a href="#footer" className="text-black hover:text-green-600 mr-3 text-lg">About Us</a>
+                        <a href="#footer" className="text-black hover:text-green-600 mr-3 px-3 text-lg">About Us</a>
                     </li>
                     <li className="md:mr-3">
-                        <a href="https://platform.tdxapp.ai/register-your-inteterest" className="text-black hover:text-green-600 mr-3 text-lg">Register With Us</a>
+                        <a href="https://platform.tdxapp.ai/register-your-inteterest" className="text-black hover:text-green-600 mr-3 px-3 text-lg">Register With Us</a>
                     </li>
                     <li>
                         <a href='https://platform.tdxapp.ai/login'><button className="text-white bg-green-600 hover:bg-green-800 text-lg mr-5 rounded-full px-6 py-2">Sign In</button></a>
                     </li>
                 </ul>
+                </div>
             </nav>
             <div className='bg-gray-600 py-2 text-white pl-4 md:pl-32'>
                 <p className="text-center text-sm">TDX streamlines trading processes, ensuring simplicity, efficiency and inclusivity for both traders and farmers in a risk-adjusted manner.</p>
