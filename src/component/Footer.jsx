@@ -12,7 +12,7 @@ const Footer = () => {
                 {/* Left Column */}
                 <div className="w-full md:w-1/3 md:pr-8">
                     <div className="mb-8">
-                        <img src={logo} alt="Logo" className="h-16 mb-4 mx-auto md:mx-0" />
+                        <a href='#navbar'><img src={logo} alt="Logo" className="h-16 mb-4 mx-auto md:mx-0" /></a> 
                         <div className="text-center md:text-left mb-4">
                             <h4 className='text-lg md:text-3xl font-bold'>Mission</h4>
                             <p className='text-xl'>We are building one platform to enhance agricultural commodity trading process.</p>

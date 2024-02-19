@@ -5,8 +5,8 @@ const Hero2 = () => {
   return (
     <div className='flex flex-col md:flex-row items-center bg-gray-100 h-auto md:h-96 px-6 md:px-32'>
       {/* Left Column (Text) */}
-      <div className='md:w-1/2 md:pr-20 mb-8 md:mb-0 text-center md:text-left'>
-        <h1 className='text-4xl md:text-6xl pb-8 text-black'>
+      <div className='md:w-7/12 md:pr-20 mb-8 md:mb-0 text-center md:text-left'>
+        <h1 className='text-4xl md:text-6xl pb-8 text-black font-bold'>
           <span className='text-green-700'>Direct Sourcing </span>
           for <br />
           Maximum<span className='text-green-700'> Profit<span>*</span> </span>
