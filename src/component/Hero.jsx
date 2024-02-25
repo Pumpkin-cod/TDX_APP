@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import desktop from '../assets/tdx desktop2 1.png';
+import desktop from '../assets/tdx hand holding phone copy 1.png';
 
 const Hero = () => {
     return (
@@ -40,11 +40,11 @@ const Hero = () => {
 
             {/* Image Section (for Larger Screens) */}
             <div className="hidden md:block md:pl-20 w-1/2 md:w-1/2 justify-center items-center">
-                <div className="relative w-96 h-96 bg-slate-200 rounded-full my-10">
+                <div className="relative w-80 h-80 bg-slate-200 rounded-full my-14">
                     <img
                         src={desktop}
                         alt="desktop"
-                        className="absolute inset-0 w-80 h-80 object-contain top-6 transform scale-75 md:scale-110 rotate-6"
+                        className="absolute inset-0 w-80 h-80 object-contain top-1 transform scale-75 md:scale-110 rotate-6"
                     />
                 </div>
             </div>
