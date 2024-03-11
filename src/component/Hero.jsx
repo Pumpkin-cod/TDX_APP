@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import desktop from '../assets/tdx man holding phone 1.png';
+import desktop from '../assets/tdx desktop2 1.png';
 
 const Hero = () => {
     return (
