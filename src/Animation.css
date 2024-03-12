@@ -1,0 +1,60 @@
+/* animations.css */
+
+.animate-overlay {
+  /* Define the properties for the overlay animation */
+  transition: transform 0.5s ease;
+}
+
+/* Define keyframes for the animation */
+@keyframes slideFromLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideFromTop {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideFromBottom {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideFromRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Apply animations to each overlay image */
+.left-80 {
+  animation: slideFromLeft 1s ease;
+}
+
+.left-36 {
+  animation: slideFromBottom 1s ease;
+}
+
+.left-32.top-0 {
+  animation: slideFromTop 1s ease;
+}
+
+.left-80.top-2 {
+  animation: slideFromRight 1s ease;
+}
